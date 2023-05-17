@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Bakuga Multilingual Wikipedia Popups",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "src/content.ts"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ],
+    "background": {
+        "service_worker": "src/background.ts",
+        "type": "module"
+    }
+}

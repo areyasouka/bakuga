@@ -1,0 +1,62 @@
+#crx-root {
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#crx-root button {
+  background-color: rgb(239, 239, 239);
+  border-color: rgb(118, 118, 118);
+  border-image: initial;
+  border-style: outset;
+  border-width: 2px;
+  margin: 0;
+  padding: 1px 6px;
+}
+
+
+#bakuga-popup, #bakuga-popup * {
+  width: auto;
+  height: auto;
+  background: transparent;
+  border: none !important;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: normal;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-transform: none;
+  white-space: normal;
+  word-spacing: normal;
+  font-weight: normal;
+  font-size: 12px;
+  font-family: Tahoma, Geneva, sans-serif;
+  visibility: visible;
+  line-height: initial;
+}
+
+#bakuga-popup {
+  position: absolute;
+  z-index: 999999999;
+  border: 1px solid #d0d0d0 !important;
+  padding: 4px;
+  background: #e6f4ff;
+  top: 5px;
+  left: 5px;
+  min-width: 100px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px -5px #999999;
+}
+
+#bakuga-popup .w-def {
+  font-size: 16px;
+}
+
+#bakuga-popup.background-yellow,
+#bakuga-popup.background-yellow * {
+  color: #000000;
+  background: #ffffbf;
+}
+
